@@ -1,0 +1,154 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#bannerImage {
+  height: 100%;
+  width: 100%;
+  background-image: url("./image0.png");
+  background-size: cover;
+  color: white;
+  padding-right: 100px;
+
+}
+
+#bannerImage div {
+  float: right;
+  margin: 100px 100px 40px 0px;
+}
+
+#bannerImage div h2 {
+  font-weight: 500 px;
+  font-size: 55px;
+}
+
+.plant_area {
+  padding: 25px 0px;
+}
+
+.txt2 a {
+  text-decoration: none;
+  color: #366D4A;
+}
+
+.txt2 h4 {
+  color: #366D4A;
+}
+.txt2 h6 {
+  color: #366D4A;
+}
+
+.txt1 h4 {
+  color: #366D4A;
+}
+
+.txt1 h6 {
+  color: #366D4A;
+}
+.txt1 a {
+  color: #366D4A;
+}
+
+.fig_1 {
+  width: 86%;
+  position: relative;
+  margin: 0 7%;
+}
+
+.figure-img {
+  width: 100%;
+}
+
+.card-info {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  width: 100%;
+  display: none;
+
+}
+
+.fig_1:hover .card-info {
+  display: block;
+}
+
+.card-info button {
+  border-radius: 12px;
+  color: white;
+  border: solid black;
+  background-color: transparent;
+  padding: 5px 15px;
+
+}
+
+.searcharea {
+  background-color: #014b40;
+padding:100px 0;
+}
+.searchbutton{
+ width:100px;
+  background-color: white;
+
+}
+.box{
+  background-color: white;
+  width:1500px;
+  height:25px;
+  padding:20px 0;
+  margin:20px;
+}
+.flowerarea {
+  padding: 20px 0px;
+}
+
+.flowerbox img {
+  width: 100%;
+}
+
+.flowerarea h4 {
+  text-decoration: none;
+  color: #014b40;
+}
+
+.rectanglearea {
+  margin: 20px 20px;
+  padding: 150px 40px;
+  background: url(rectangle.png) no-repeat;
+  text-align: center;
+}
+
+.rectangleImage {
+  position: center;
+}
+
+.rectangleImage div h2 {
+  font-weight: 500px;
+  font-size: 55px;
+  color: aliceblue;
+}
+
+.rectangleservice h2 {
+  color: #CFCFCF;
+
+}
+
+.rectangleservice p {
+  color: #CFCFCF;
+}
+
+.design {
+  background-color: #014b40;
+  color: #CFCFCF;
+  padding: 20px 0;
+}
+
+.design h2 {
+  color: white;
+}
+
+.design ul {
+  list-style: none;
+  padding: 0;
+}
