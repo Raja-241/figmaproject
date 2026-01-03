@@ -9,49 +9,62 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="aos.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="navbar">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#"></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">fertilizer</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            products
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Guide</a></li>
-                                </ul>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">fertilizer</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        products
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#">Guide</a></li>
+                            </ul>
 
-                            </div>
                         </div>
-                    </nav>
+                    </div>
+
+                </nav>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="planty">
+                    <img src="planty.png" />
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="cart">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-shopping-cart"></i>
                 </div>
             </div>
         </div>
@@ -63,7 +76,7 @@
                     <div id="bannerImage">
                         <div>
                             <h2>Bring Serenity to<br> Your Place With <br>Interior Plants</h2>
-                            <p style="padding:20px 0px;">Our environment, the world in which we live and<br> work, is a
+                            <p>Our environment, the world in which we live and<br> work, is a
                                 mirror of our attitudes and expectations.
                             </p>
 
@@ -80,15 +93,15 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <div class="text2">
+                    <div class="txt2">
                         <h6>View All</h6>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 col-12" data-aos="fade-right">
                     <div class="fig_1">
-                        <img src="image1.png" />
+                        <img src="Mask12 group.png" />
                         <a href="">
                             <div class="card-info">
                                 <div class="row">
@@ -111,7 +124,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 col-12" data-aos="fade-down">
                     <div class="fig_1">
                         <img src="image2.png" />
                         <div class="card-info">
@@ -133,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12">
+                <div class="col-md-4 col-12" data-aos="fade-left">
                     <div class="fig_1">
                         <img src="image3.png" />
                         <div class="card-info">
@@ -161,13 +174,14 @@
     <section class="searcharea">
         <div class="row">
             <div class="col">
-               <div class="box">
-                search
-                 <button class="search button">
-                    
-                 </button>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="search flowers....">
+                </div>
 
-               </div>
+
+
             </div>
         </div>
     </section>
@@ -182,7 +196,7 @@
                 <div class="col-md-6 col-12">
                     <div class="txt2">
                         <h6><a href="">View All </a> </h6>
-                     </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -194,7 +208,7 @@
                 </div>
                 <div class="col-md-3 col-12">
                     <div class="flowerbox">
-                        <img src="Mask group.png" />
+                        <img src="Mask15 group.png" />
                     </div>
                 </div>
                 <div class="col-md-3 col-12">
@@ -215,7 +229,7 @@
             <div class="row">
                 <div class="col-md-6 col-12">
                     <div class="txt1">
-                         <h4>Plant Stand</h4>
+                        <h4>Plant Stand</h4>
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
@@ -243,76 +257,119 @@
             <div class="row">
                 <div class="col-12">
                     <div class="rectangleareaimage">
-                        <div class="rectangleservice">
-                            <h2>Free Shipping Services</h2>
-                            <p>only for the same region</p>
-                            <h3> <a href="">+85264532168</a></h3>
-                            <p><a href="">order@Planty.co</a></p>
-                        </div>
+
+                        <h1>Free Shipping Services</h1>
+                        <p>*only for the same region</p>
+                        <h3>
+                            <P><i class="fa fa-phone"></i> +85264532168
+                        </h3>
+                        <p><i class="fa fa-envelope-o"></i> order@Planty.co</p>
+
                     </div>
                 </div>
             </div>
-
+        </div>
     </section>
 
-    </section>
-    <footer class="design">
 
+
+    <section class="video">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-12">
-                    <h2>Planty</h2>
-                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel
-                        sagittis ipsum. Curabitur eleifend, risus id sollicitudin pretium, massa ex tristique velit.</P>
-                    <h2> Join Newsletters</h2>
-                </div>
-                <div class="col-md-3 col-12">
-                    <h2>Our Project</h2>
-                    <ul>
-                        <Li>Medical & Health</Li>
-                        <Li>Educations</Li>
-                        <Li>Technology</Li>
-                        <Li>Web Development</Li>
-                        <Li>Food & Cloths</Li>
-
-                    </ul>
-                </div>
-                <div class="col-md-3 col-12">
-                    <h2>Support</h2>
-                    <ul>
-                        <Li>Privacy Policy</Li>
-                        <Li>Conditions</Li>
-                        <Li>Company</Li>
-                        <Li>Faq & Terms</Li>
-                        <Li>Contact us</Li>
-
-                    </ul>
-
-                </div>
-                <div class="col-md-3 col-12">
-                    <h2>Contact us</h2>
-                    <ul>
-                        <Li>Phone Number</Li>
-                        <P>+012(345) 78 93</P>
-                        <Li>Email Address</Li>
-                        <p>Planty@gmail.com</p>
-                        <Li>Company</Li>
-                        <Li>Locations</Li>
-                        <p>59 Main Street, USA</p>
-
-                    </ul>
+            <div class="row">        
+                <div class="col">
+                    <div class="videobox">
+                    <video width="100%" height="100%" autoplay muted loop>
+                        <source src="rain.mp4" type="video/mp4"/>
+                    </video>
+                    <h1>welcome to the Plant World</h1>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
+    </section>
 
-            </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+
+
+    <footer class=" design">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+                            <img src="plantyy.png" />
+                            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra efficitur diam, vel
+                                sagittis ipsum. Curabitur eleifend, risus id sollicitudin pretium, massa ex tristique
+                                velit.</P>
+                            <h2> Join Newsletters</h2>
+
+
+                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                placeholder="Type to search...">
+                            <datalist id="datalistOptions">
+                                <option value="San Francisco">
+                                <option value="New York">
+                                <option value="Seattle">
+                                <option value="Los Angeles">
+                                <option value="Chicago">
+                            </datalist>
+
+
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h4>Our Project</h4>
+                            <ul>
+                                <Li>Medical & Health</Li>
+                                <Li>Educations</Li>
+                                <Li>Technology</Li>
+                                <Li>Web Development</Li>
+                                <Li>Food & Cloths</Li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h4>Support</h4>
+                            <ul>
+                                <Li>Privacy Policy</Li>
+                                <Li>Conditions</Li>
+                                <Li>Company</Li>
+                                <Li>Faq & Terms</Li>
+                                <Li>Contact us</Li>
+
+                            </ul>
+
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h4>Contact us</h4>
+                            <ul>
+                                <Li>Phone Number</Li>
+                                <P><i class="fa fa-phone"></i> +012(345) 78 93</P>
+
+                                <Li>Email Address</Li>
+                                <p><i class="fa fa-envelope-open"></i> Planty@gmail.com</p>
+
+                                <Li>Locations</Li>
+                                <p><i class="fa fa-map-marker"></i> 59 Main Street, USA</p>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+                </footer>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                    crossorigin="anonymous"></script>
+
+                <script src="Aos.js"></script>
+                <script>
+                    AOS.init({
+                        easing: 'ease-out-back',
+                        duration: 1000
+                    });
+                </script>
 
 </body>
 
